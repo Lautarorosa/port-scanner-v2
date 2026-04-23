@@ -1,0 +1,12 @@
+*.db
+*.sqlite
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+exports/*.json
+exports/*.csv
+exports/*.html
+!exports/.gitkeep
+.DS_Store
+*.log
