@@ -1,31 +1,32 @@
-# 🔐 Port Scanner v2.0
+# Port Scanner v2.0 — Advanced Purple Team Scanner
 
-Port scanner avanzado con multi-threading, banner grabbing y detección de vulnerabilidades.
+Escáner de puertos multithreaded con detección de vulnerabilidades, banner grabbing y persistencia en SQLite.
 
-## 🚀 Instalación
+## Características
+
+- **Multithreaded** — hasta 100 threads, 10-20x más rápido
+- **Detección de estado** — Abierto, Cerrado y Filtrado (firewall)
+- **Evasión de IDS** — orden de puertos aleatorio
+- **Banner grabbing** — captura de banners HTTP, SSH, FTP, etc.
+- **Vulnerabilidades** — mapeo automático por servicio (SMB, RDP, Redis, MySQL...)
+- **SQLite** — historial completo de escaneos
+- **Exportación** — reportes en JSON, CSV y HTML
+
+## Instalación
 
 ```bash
-python test_scanner.py  # Probar
-python main.py          # Ejecutar
+git clone https://github.com/Lautarorosa/port-scanner-v2.git
+cd port-scanner-v2
+python main.py
 ```
 
-## ✨ Características
+## Uso
 
-- Multi-threading (10-20x más rápido)
-- Banner grabbing
-- Detección de vulnerabilidades
-- Exportación JSON/CSV/HTML
-- Base de datos SQLite
+```bash
+python main.py        # Menú completo
+python test_scanner.py  # Test rápido localhost
+```
 
-## 📚 Documentación Completa
+## Estructura
 
-Ver en Notion:
-- 📘 Port Scanner v2.0 — Documentación Completa
-- 🧪 Guía Práctica — Cómo Usar
-
-## ⚖️ Legal
-
-Solo para educación. Escanear solo sistemas propios o con permiso.
-
----
-Made with ❤️ for learning cybersecurity
+> Solo para uso educativo. Escanear únicamente sistemas propios o con autorización.
